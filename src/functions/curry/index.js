@@ -1,7 +1,15 @@
-'use strict';
+'use strict'
 
 function curry(fn) {
-    
+  return function curried(...args) {
+    if (args.length < fn.length) {
+      return function(...moreArgs) {
+        return curried(...args, ...moreArgs)
+      }
+    }
+
+    return fn(...args)
+  }
 }
 
-module.exports = curry;
+module.exports = curry
