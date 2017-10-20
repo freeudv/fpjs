@@ -1,7 +1,5 @@
 'use strict'
 
-function unary(fn) {
-  return arg => fn(arg)
-}
+const unary = fn => arg => fn(arg)
 
 module.exports = unary

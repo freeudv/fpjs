@@ -1,7 +1,5 @@
-'use strict';
+'use strict'
 
-function size(array) {
+const size = array => array.length
 
-}
-
-module.exports = size;
+module.exports = size

@@ -1,7 +1,5 @@
-'use strict';
+'use strict'
 
-function isEmpty(array) {
-    
-}
+const isEmpty = array => !array.length
 
-module.exports = isEmpty;
+module.exports = isEmpty

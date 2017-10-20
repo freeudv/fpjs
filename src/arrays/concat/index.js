@@ -1,7 +1,5 @@
-'use strict';
+'use strict'
 
-function concat(a, b) {
-    
-}
+const concat = (a, b) => [...a, ...b]
 
-module.exports = concat;
+module.exports = concat

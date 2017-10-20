@@ -1,7 +1,5 @@
-'use strict';
+'use strict'
 
-function head(array) {
-    
-}
+const head = array => array[0]
 
-module.exports = head;
+module.exports = head

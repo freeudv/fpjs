@@ -1,7 +1,5 @@
-'use strict';
+'use strict'
 
-function last(array) {
-    
-}
+const last = array => array[array.length - 1]
 
-module.exports = last;
+module.exports = last
